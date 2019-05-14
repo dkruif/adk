@@ -102,7 +102,9 @@ ul{
   width: 100px;
   margin: 8px;
 }
-
+.logo_groot{
+  width: 250px;
+}
 .list-group-item:first-child {
   border-top-right-radius: 0;
   border-top-left-radius: 0;
