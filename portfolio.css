@@ -9,7 +9,7 @@ font-family: 'Quattrocento Sans', sans-serif;
 
 body {
   font-family: 'Comfortaa', cursive;
-  background-color: #2f2f2f; /* Black Gray */
+  background-color: darkslategray;
   color: #fff;
   background-image: url("img/laptop.jpg");
   background-size: cover;
@@ -24,7 +24,7 @@ body {
 }
 
 .bg-2 { 
-  background-color: slategray; /* Green-Blue */
+  background-color: slategray;
   color: #ffffff;
 }
 
@@ -41,11 +41,12 @@ h3{
   color:#777;
   background-color: white;
 }
-h4{
+h4 { margin: 10px 0 30px 0;
+  background-color: slategray;
+  color: #fff !important;
+  text-align: center;
+  font-size: 30px;
   letter-spacing: 2px;
-  margin: 10px 0 30px 0;
-  background-color: slategray; 
-  font-size: 20px;
 }
 p{
   font-size: 18px;
@@ -125,10 +126,10 @@ ul{
   max-width: 150px;
   max-height: 200px;
   min-height: 200px;
-  border: 3px;
+  border: solid lightslategray 3px;
 }
 .thumbnail img:hover {
-  box-shadow: 0 0 3px 2px rgba(197, 205, 207, 0.5);
+  box-shadow: 0 0 3px 2px rgba(48, 54, 56, 0.5);
 }
 .thumbnail p {
   margin-top: 15px;
@@ -152,18 +153,6 @@ ul{
   background-color: #fff;
   color: #000;
 }
-.modal-header, h4, .close {
-  background-color: #333;
-  color: #fff !important;
-  text-align: center;
-  font-size: 30px;
-}
-.modal-header, .modal-body {
-  padding: 40px 50px;
-}
-.nav-tabs li a {
-  color: #777;
-}
  
 .navbar {
   font-family: Montserrat, sans-serif;
@@ -174,7 +163,7 @@ ul{
   letter-spacing: 4px;
   opacity: 0.9;
 }
-.navbar li a, .navbar .navbar-brand { 
+.navbar li a, .navbar { 
   color: #d5d5d5 !important;
 }
 .navbar-nav li a:hover {
@@ -186,16 +175,6 @@ ul{
 }
 .navbar-default .navbar-toggle {
   border-color: transparent;
-}
-.open .dropdown-toggle {
-  color: #fff;
-  background-color: #555 !important;
-}
-.dropdown-menu li a {
-  color: #000 !important;
-}
-.dropdown-menu li a:hover {
-  background-color: red !important;
 }
 .form-control {
   border-radius: 0;
